@@ -1,0 +1,501 @@
+body {
+    padding-top: 56px;
+    /* Altura de la barra de navegación */
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+    /* Color del enlace activo */
+}
+
+li a:hover {
+
+    font-weight: bold;
+    transition: all 0.2s ease;
+    background-color: #FFA500;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.itelefono{
+    width: 6%
+}
+
+.contaninerP img, .contaninerP p {
+    display: inline-block;
+   
+    /* Alinea verticalmente los elementos */
+}
+
+.img11{
+    width: 80%;
+    
+}
+#ingles{
+    width: 10%;
+    border-radius: 50%;
+    background-color:#343a40;
+}
+#botoningles{
+    background-color:  #343a40;
+    width: 10%;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+/* circulos */
+
+@keyframes progress-1{
+    from{
+        stroke-dashoffset: 360;
+    }to{
+        stroke-dashoffset: 100;
+    }
+}
+
+@keyframes progress-2{
+    from{
+        stroke-dashoffset: 360;
+    }to{
+        stroke-dashoffset: 160;
+    }
+}
+
+@keyframes progress-3{
+    from{
+        stroke-dashoffset: 360;
+    }to{
+        stroke-dashoffset: 250;
+    }
+}
+
+svg{
+    width: 114px;
+    height: 114px;
+    margin: 1em;
+}
+
+.bg{
+    fill:none;
+    stroke-width: 10px;
+    stroke: #13c563;
+}
+
+[class = "meter-"]{
+    fill: none;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+.meter-1{
+    stroke-dasharray: 360;
+    stroke-dashoffset: 100;
+    stroke: #00FFFF;
+    animation: progress-1 1.5s ease-out;
+}
+.meter-2{
+    stroke-dasharray: 360;
+    stroke-dashoffset: 160;
+    stroke: #00FF00;
+    animation: progress-2 1s ease-out;
+}
+.meter-3{
+    stroke-dasharray: 360;
+    stroke-dashoffset: 250;
+    stroke: #FF33FF;
+    animation: progress-3 .75s ease-out;
+}
+
+.bg {
+    fill: none;
+    stroke-width: 7px;
+    /* Aumenta el grosor de la barra creciente */
+    stroke: #000000;
+}
+
+[class^="meter-"] {
+    fill: none;
+    stroke-width: 7px;
+    /* Aumenta el grosor de la barra creciente */
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+
+
+
+
+
+
+
+
+#experience .job {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#experience .job h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+#experience .job h4 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #666;
+}
+
+#experience .job-duration {
+    font-style: italic;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+#experience .job-description {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    text-align: center;
+    margin: 20px;
+}
+
+.skill svg {
+    width: 114px;
+    height: 114px;
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+/*--------------------------------------------------------------
+# Akills
+--------------------------------------------------------------*/
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+
+.skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+
+.skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+    background: #dce8f8;
+    height: 10px;
+}
+
+.skills .progress-bar1 {
+        width: 80%;
+        height: 10px;
+        transition: 0.9s;
+        background-color: #149ddd;
+}
+.skills .progress-bar2 {
+        width: 80%;
+        height: 10px;
+        transition: 0.9s;
+        background-color: #149ddd;
+}
+.skills .progress-bar3 {
+        width: 60%;
+        height: 10px;
+        transition: 0.9s;
+        background-color: #149ddd;
+}
+.skills .progress-bar4 {
+        width: 75%;
+        height: 10px;
+        transition: 0.9s;
+        background-color: #149ddd;
+}
+.skills .progress-bar5 {
+        width: 80%;
+        height: 10px;
+        transition: 0.9s;
+        background-color: #149ddd;
+}
+.skills .progress-bar6 {
+        width: 90%;
+        height: 10px;
+        transition: 0.9s;
+        background-color: #149ddd;
+}
+
+
+/* resumen item */
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+}
+
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+    padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+
+.textoDentroCirculo{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+    padding-bottom: 130px;
+}
+
+.contact .info {
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: #149ddd;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #dff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #050d18;
+}
+
+.contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #173b6c;
+}
+
+.contact .info .email p {
+    padding-top: 5px;
+}
+
+.contact .info .social-links {
+    padding-left: 60px;
+}
+
+.contact .info .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.contact .info .social-links a:hover {
+    background: #149ddd;
+    color: #fff;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+    background: #149ddd;
+    color: #fff;
+}
+
+.contact .php-email-form {
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+    margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact .php-email-form label {
+    padding-bottom: 8px;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact .php-email-form input {
+    height: 44px;
+}
+
+.contact .php-email-form textarea {
+    padding: 10px 15px;
+}
+
+.contact .php-email-form button[type=submit] {
+    background: #149ddd;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+    background: #37b3ed;
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
