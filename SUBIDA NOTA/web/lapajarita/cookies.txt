@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-.bigcartel.com	TRUE	/	FALSE	1999999999	_cfuvid	fdpfGk2cSZX3hum.sngglYjlaaZTbV.VYdOeVGGq0dY-1716808425516-0.0.1.1-604800000
-lapajaritashop.bigcartel.com	TRUE	/	FALSE	1999999999	SameSite	None
-lapajaritashop.bigcartel.com	TRUE	/	FALSE	1999999999	_storefront_session	1apRJS%2BpPb%2BBfuQORSa0V%2FIREnKARM5XKonsb2N3X%2FShZ%2FY9Q0QJxOjs9x5x9W4YjM4PxrnfEDaLzV8P3N7qY1ZO9aRrgkGAf33OvXtbqSK00t0am91N9ehfgRLIAAulpzMxGQvM%2Ftd71sbztlFr%2BfrxwXXp19OcxbZndsgLvhdcvHpCkLTYW5pwlwq3rTj%2Bvc7HCIbehUuoGForYBbu8nOtiJ9Aq8LuuU8psfZbPWKakjItC0YXYuZFgTzUpn46YHmJ8MXTOcNvbon4%2FGZcux3jP6e0ScrYnlPu%2B1kptC4CGx2Trz8Nsi%2B3TvgThgLCcxDghZNHM0YCALBsJG5xH0QDA%2BgKvvG9CVNTlLoedswsJYzgo%2F0zHg5gRAzrpbX59MQPfxzHhtBpNXX0d22o7awOAEPpZThx0JwHlJYifFphPLAYjEn1SDm3LAxumYI%3D--8%2Fy8vtmONw%2FFEA9A--FTG5z6ToIrBSg8TVigkEmQ%3D%3D
-
